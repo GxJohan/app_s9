@@ -1,0 +1,24 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.app_s9.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/navigation_contador"
+        android:name="com.example.app_s9.ui.contador.ContadorFragment"
+        android:label="Contador"
+        tools:layout="@layout/fragment_contador"/>
+
+    <fragment
+        android:id="@+id/navigation_registro"
+        android:name="com.example.app_s9.ui.registro.RegistroFragment"
+        android:label="Registro"
+        tools:layout="@layout/fragment_registro"/>
+</navigation>

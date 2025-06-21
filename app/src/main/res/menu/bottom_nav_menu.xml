@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Inicio"/>
+    <item
+        android:id="@+id/navigation_contador"
+        android:icon="@drawable/baseline_access_time_filled_24"
+        android:title="Contador"/>
+    <item
+        android:id="@+id/navigation_registro"
+        android:icon="@drawable/baseline_app_registration_24"
+        android:title="Registro"/>
+</menu>
