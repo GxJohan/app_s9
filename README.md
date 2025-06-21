@@ -1,76 +1,29 @@
-# App S9 - SharedPreferences Demo
+<p align="center"><a href="https://www.uns.edu.pe" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Universidad_Nacional_del_Santa_Logo.png" width="250" alt="UNS Logo"></a></p>
 
-Aplicación Android de ejemplo que demuestra el uso básico de SharedPreferences para almacenamiento persistente de datos.
+<p align="center">
+  <a href="https://developer.android.com/"><img src="https://img.shields.io/badge/Android-35-brightgreen?logo=android" alt="Android SDK"></a>
+  <a href="https://developer.android.com/about/versions/14/get"><img src="https://img.shields.io/badge/minSdk-24-yellow" alt="minSdk 24"></a>
+  <a href="https://kotlinlang.org/"><img src="https://img.shields.io/badge/Kotlin-2.0.21-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin"></a>
+  <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-11-%23ED8B00?logo=openjdk&logoColor=white" alt="Java 11"></a>
+  <a href="https://m3.material.io/"><img src="https://img.shields.io/badge/Material%20Components-3-0081CB?logo=material-design&logoColor=white" alt="Material Design 3"></a>
+</p>
 
-## 📱 Descripción
+<p align="center">
+  <a href="https://developer.android.com/training/data-storage/shared-preferences"><img src="https://img.shields.io/badge/SharedPreferences-3DA639" alt="SharedPreferences"></a>
+  <a href="https://developer.android.com/guide/navigation/navigation-getting-started"><img src="https://img.shields.io/badge/Android%20Navigation-3DA639" alt="Android Navigation"></a>
+</p>
 
-Esta aplicación implementa un sistema simple de SharedPreferences que permite:
-- Guardar y recuperar datos de usuario
-- Detectar la primera ejecución de la app
-- Limpiar todas las preferencias guardadas
+## Aplicación con SharedPreferences
 
-## 🚀 Características
+Aplicación móvil que demuestra el uso de SharedPreferences para persistencia de datos sencilla, implementando:
 
-- **SharedPreferencesHelper**: Clase wrapper para simplificar el uso de SharedPreferences
-- **Tipos de datos soportados**: String, Boolean, Int, Float, Long
-- **Interfaz simple**: Campos de entrada y botones para interactuar con las preferencias
-- **Persistencia**: Los datos se mantienen incluso después de cerrar la aplicación
+- Almacenamiento y recuperación de nombre de usuario
+- Contador de aperturas de la aplicación con botón de reset
+- Formulario de datos personales persistente
 
-## 📋 Requisitos
-
-- Android Studio Arctic Fox o superior
-- SDK mínimo: API 21 (Android 5.0)
-- SDK objetivo: API 34 (Android 14)
-- Kotlin 1.9.0
-
-## 🛠️ Instalación
-
-1. Clona el repositorio:
-```bash
-git clone https://github.com/GxJohan/app_s9.git
-```
-
-2. Abre el proyecto en Android Studio
-
-3. Sincroniza el proyecto con Gradle
-
-4. Ejecuta la aplicación en un emulador o dispositivo físico
-
-## 💻 Uso
-
-1. **Guardar datos**: Ingresa tu nombre y presiona "Guardar"
-2. **Cargar datos**: Presiona "Cargar" para ver los datos guardados
-3. **Limpiar datos**: Presiona "Limpiar Todo" para eliminar todas las preferencias
-
-## 📂 Estructura del Proyecto
-
-```
-app_s9/
-├── app/
-│   └── src/
-│       └── main/
-│           ├── java/com/example/app_s9/
-│           │   ├── MainActivity.kt
-│           │   └── SharedPreferencesHelper.kt
-│           └── res/
-│               └── layout/
-│                   └── activity_main.xml
-└── SharedPreferences_Guide.md
-```
-
-## 📖 Documentación
-
-Para más detalles sobre la implementación y cómo extender la funcionalidad, consulta [SharedPreferences_Guide.md](SharedPreferences_Guide.md)
-
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## 📄 Licencia
-
-Este proyecto es de código abierto y está disponible bajo la Licencia MIT.
+<img src="https://github.com/user-attachments/assets/d9cd9d3b-d099-4371-a6af-35d5aecd8c11" width="250" alt="Captura 1" />
+<img src="https://github.com/user-attachments/assets/c342ce3b-cd8c-43b9-9848-7666ccedd294" width="250" alt="Captura 2" />
+<img src="https://github.com/user-attachments/assets/786dde15-b193-4852-8c8a-bbdd771b32fd" width="250" alt="Captura 3" />
+<img src="https://github.com/user-attachments/assets/41c5ab49-9b80-4dfa-8126-030713285de5" width="250" alt="Captura 4" />
+<img src="https://github.com/user-attachments/assets/f42591d9-dbe2-4c99-b58e-571d9bf694d6" width="250" alt="Captura 5" />
+<img src="https://github.com/user-attachments/assets/8f9abe29-86d8-4ebd-9ab7-fcf596714c30" width="250" alt="Captura 6" />
